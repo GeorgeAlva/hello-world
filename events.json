@@ -1,0 +1,26 @@
+[
+  {
+    "name": "octo-portfolio",
+    "owner": "octocat",
+    "description": "A polished personal portfolio template for developers.",
+    "language": "HTML",
+    "stars": 128,
+    "url": "https://github.com/octocat/octo-portfolio"
+  },
+  {
+    "name": "cli-helper",
+    "owner": "octocat",
+    "description": "Helpful command-line utilities for everyday workflows.",
+    "language": "JavaScript",
+    "stars": 84,
+    "url": "https://github.com/octocat/cli-helper"
+  },
+  {
+    "name": "design-system",
+    "owner": "octocat",
+    "description": "A simple design language and component library.",
+    "language": "CSS",
+    "stars": 61,
+    "url": "https://github.com/octocat/design-system"
+  }
+]
