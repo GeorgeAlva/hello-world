@@ -41,3 +41,21 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error(error);
     });
 });
+
+class ExampleThree {
+  static get properties() {
+    return {
+      /**
+       * name user
+       * @default ''
+       */
+      userName: { type: String },
+    };
+  }
+
+
+  constructor() {
+    super();
+    this.userName = 'juan';
+  }
+}
