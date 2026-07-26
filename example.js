@@ -12,11 +12,6 @@ class Example {
        */
       age: { type: Number },
       /**
-       * @private
-       * @default false
-       */
-      _flagActive: { type: String, state: true },
-      /**
        * flag to is active user
        * @default false
        */
@@ -25,7 +20,13 @@ class Example {
        * @private
        * @default false
        */
-      _isActiveOther: { type: Boolean, state: true }
+      _isActiveOther: { type: Boolean, state: true },
+      /**
+       * flag to indicate active user
+       * @private
+       * @default false
+       */
+      _flagActive: { type: Boolean, state: true },
     };
   }
 
@@ -34,7 +35,7 @@ class Example {
     super();
     this.name = '';
     this.age = '';
-    this._flagActive = false;
     this.isActive = false;
+    this._flagActive = false;
   }
 }
