@@ -49,7 +49,7 @@ class ExampleThree {
        * name user
        * @default ''
        */
-      userName: { type: String },
+      userName: { type: String, attribute: 'user-name' },
     };
   }
 
