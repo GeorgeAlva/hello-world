@@ -20,7 +20,13 @@ class Example {
        * @private
        * @default false
        */
-      _isActiveOther: { type: Boolean, state: true }
+      _isActiveOther: { type: Boolean, state: true },
+      /**
+       * flag to indicate active user
+       * @private
+       * @default false
+       */
+      _flagActive: { type: Boolean, state: true },
     };
   }
 
@@ -30,5 +36,6 @@ class Example {
     this.name = '';
     this.age = '';
     this.isActive = false;
+    this._flagActive = false;
   }
 }
