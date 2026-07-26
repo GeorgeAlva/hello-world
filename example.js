@@ -15,12 +15,12 @@ class Example {
        * flag to is active user
        * @default false
        */
-      isActive: { type: Number },
+      isActive: { type: Boolean, attribute: 'is-active' },
       /**
        * @private
        * @default false
        */
-      _isActiveOther: { type: Boolean }
+      _isActiveOther: { type: Boolean, state: true }
     };
   }
 
