@@ -8,11 +8,12 @@ class ExampleTwo {
       name: { type: String },
       /**
        * Age user
-       * @default '2'
+       * @default ''
        */
       age: { type: Number },
       /**
        * @private
+       * @default false
        */
       _isActiveOther: { type: Boolean, state:true }
     };
@@ -21,8 +22,8 @@ class ExampleTwo {
 
   constructor() {
     super();
-    this.name = 'juan';
+    this.name = '';
     this.age = '';
-    this._isActiveOther = true
+    this._isActiveOther = false
   }
 }
